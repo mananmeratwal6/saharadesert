@@ -1,0 +1,181 @@
+body{
+    background-image: url("desert.jpg");
+    flex-wrap: wrap;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    flex-wrap: wrap;
+}
+
+.container-one {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    /* background-color: rgb(7, 165, 163); */
+    gap: 80px;
+    flex-wrap: wrap;
+    /* background-color: azure; */
+}
+
+.logo {
+    background-image: url("logo.png");
+    font-size: 50px;
+    width: 125px;
+    margin: 50px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.main-navbar {
+    display: flex;
+    gap: 100px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 50px;
+    height: 80px;
+
+}
+
+ul li {
+    color: white;
+    font-size: 20px;
+}
+
+.hamburger-menu {
+    background-image: url("menu.png");
+    display: flex;
+    width: 48px;
+    height: 48px;
+    margin: 35px;
+}
+
+.container-two {
+    margin-bottom: 100px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-left: 200px; */
+
+}
+
+.section-one {
+    margin: 50px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+}
+
+.h1 {
+    width: 100px;
+    height: 100px;
+    font-size: 100px;
+    color: azure;
+    margin: 50px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-family: ; */
+}
+
+p {
+    /* margin-top:170px; */
+    width: 100px;
+    height: 100px;
+    color: beige;
+    /* margin: 20px; */
+    /* margin-right: 10px; */
+}
+
+.background {
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.section-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 500px;
+    width: 500px;
+    /* border: 3px solid black; */
+    /* margin: 200px; */
+    gap: 30px;
+    margin-left: 200px;
+    margin-top: 100px;
+    background-position: center;
+    background-size: cover;
+    /* justify-content: center; */
+
+    /* box-shadow: 10px 10px gray; */
+
+    /* display: flex; */
+
+}
+
+.box {
+    /* background-color: coral; */
+    /* border: 10px solid black */
+}
+
+.box1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url("pic-1.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+
+    /* display: grid; */
+}
+
+.box2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url("pic-2.png");
+    background-position: center;
+    background-size: cover;
+    font-size: xx-small;
+    border-radius: 10px;
+}
+
+.box3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-image: url("pic-3.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.box4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url("pic-4.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+h1 {
+    color: azure;
+    font-size: large;
+    /* margin right: ;: 50px; */
+    text-align: center;
+}
+
+p {
+    color: beige;
+    text-align: center;
+
+    margin: 0px 0px 100px 50px;
+    font-size: smaller;
+}
